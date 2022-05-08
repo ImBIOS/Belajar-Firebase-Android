@@ -4,19 +4,24 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/AndroidProject/BelajarFirebase2/app/src/main/res/drawable/btn_custom.xml" value="0.1" />
+        <entry key="..\:/AndroidProject/BelajarFirebase2/app/src/main/res/drawable/et_custom.xml" value="0.302" />
+        <entry key="..\:/AndroidProject/BelajarFirebase2/app/src/main/res/drawable/ic_arrow_right.xml" value="0.302" />
+        <entry key="..\:/AndroidProject/BelajarFirebase2/app/src/main/res/drawable/ic_home.xml" value="0.302" />
+        <entry key="..\:/AndroidProject/BelajarFirebase2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.302" />
+        <entry key="..\:/AndroidProject/BelajarFirebase2/app/src/main/res/drawable/ic_not_verified.xml" value="0.302" />
         <entry key="..\:/AndroidProject/BelajarFirebase2/app/src/main/res/layout/activity_auth.xml" value="0.30027173913043476" />
-        <entry key="..\:/AndroidProject/BelajarFirebase2/app/src/main/res/layout/activity_change_email.xml" value="0.1" />
+        <entry key="..\:/AndroidProject/BelajarFirebase2/app/src/main/res/layout/activity_change_email.xml" value="0.264" />
         <entry key="..\:/AndroidProject/BelajarFirebase2/app/src/main/res/layout/activity_code_scanner.xml" value="0.1" />
         <entry key="..\:/AndroidProject/BelajarFirebase2/app/src/main/res/layout/activity_login.xml" value="0.264" />
         <entry key="..\:/AndroidProject/BelajarFirebase2/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/AndroidProject/BelajarFirebase2/app/src/main/res/layout/activity_register.xml" value="0.19947916666666668" />
         <entry key="..\:/AndroidProject/BelajarFirebase2/app/src/main/res/layout/activity_reset_password.xml" value="0.19947916666666668" />
-        <entry key="..\:/AndroidProject/BelajarFirebase2/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/AndroidProject/BelajarFirebase2/app/src/main/res/layout/fragment_home.xml" value="0.4" />
         <entry key="..\:/AndroidProject/BelajarFirebase2/app/src/main/res/layout/fragment_login.xml" value="0.4" />
         <entry key="..\:/AndroidProject/BelajarFirebase2/app/src/main/res/layout/fragment_register.xml" value="0.2" />
         <entry key="..\:/AndroidProject/BelajarFirebase2/app/src/main/res/layout/fragment_user.xml" value="0.19947916666666668" />
-        <entry key="..\:/AndroidProject/BelajarFirebase2/app/src/main/res/layout/item_produk.xml" value="0.1" />
-        <entry key="..\:/AndroidProject/BelajarFirebase2/app/src/main/res/layout/items_slider.xml" value="0.1" />
+        <entry key="..\:/AndroidProject/BelajarFirebase2/app/src/main/res/layout/item_produk.xml" value="0.264" />
+        <entry key="..\:/AndroidProject/BelajarFirebase2/app/src/main/res/layout/items_slider.xml" value="0.264" />
       </map>
     </option>
   </component>

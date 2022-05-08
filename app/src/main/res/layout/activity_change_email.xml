@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/teal_700"
     android:padding="30dp"
+    android:background="@color/cardview_dark_background"
     tools:context=".AuthActivity">
 
     <androidx.cardview.widget.CardView
@@ -28,9 +28,9 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:backgroundTint="@color/black"
-                android:text="Change Email"
+                android:text="@string/change_email"
                 android:textAlignment="center"
-                android:textColor="@color/teal_700"
+                android:textColor="@color/colorPrimary"
                 android:textSize="24sp"
                 android:textStyle="bold" />
 
@@ -39,16 +39,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:hint="Input Your Password"
-                android:inputType="textPassword" />
+                android:hint="@string/input_your_password"
+                android:inputType="textPassword"
+                android:importantForAutofill="no" />
 
             <Button
                 android:id="@+id/btn_next"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:backgroundTint="@color/teal_700"
-                android:text="Next" />
+                android:backgroundTint="@color/colorPrimary"
+                android:text="@string/next" />
 
         </LinearLayout>
 
@@ -75,9 +76,9 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:backgroundTint="@color/black"
-                android:text="Change Email"
+                android:text="@string/change_email"
                 android:textAlignment="center"
-                android:textColor="@color/teal_700"
+                android:textColor="@color/colorPrimary"
                 android:textSize="24sp"
                 android:textStyle="bold" />
 
@@ -86,16 +87,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:hint="Input Your New Email"
-                android:inputType="textEmailAddress" />
+                android:hint="@string/input_your_new_email"
+                android:inputType="textEmailAddress"
+                android:importantForAutofill="no" />
 
             <Button
                 android:id="@+id/btn_changeEmail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:backgroundTint="@color/teal_700"
-                android:text="Change Email" />
+                android:backgroundTint="@color/colorPrimary"
+                android:text="@string/change_email" />
 
         </LinearLayout>
 

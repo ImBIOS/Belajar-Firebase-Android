@@ -8,7 +8,7 @@ import android.widget.ImageView
 import androidx.viewpager.widget.PagerAdapter
 import com.example.belajarfirebase2.R
 
-class SliderAdapter (var dataSlider : ArrayList<Int>, var context: Activity?) : PagerAdapter(){
+class SliderAdapter (private var dataSlider : ArrayList<Int>, var context: Activity?) : PagerAdapter(){
 
     lateinit var layoutInflater: LayoutInflater
 
@@ -25,8 +25,7 @@ class SliderAdapter (var dataSlider : ArrayList<Int>, var context: Activity?) : 
         val layoutInflater = LayoutInflater.from(context)
         val view = layoutInflater.inflate(R.layout.items_slider, container, false)
 
-        val imgViewSlider : ImageView
-        imgViewSlider = view.findViewById(R.id.img_slider)
+        val imgViewSlider : ImageView = view.findViewById(R.id.img_slider)
 
         imgViewSlider.setImageResource(dataSlider[position])
         container.addView(view, 0)
@@ -35,8 +34,6 @@ class SliderAdapter (var dataSlider : ArrayList<Int>, var context: Activity?) : 
     }
 
     override fun destroyItem(container: ViewGroup, position: Int, `object`: Any) {
-        super.destroyItem(container, position, `object`)
-
         container.removeView(`object` as View)
     }
 }
