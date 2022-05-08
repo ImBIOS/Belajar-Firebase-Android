@@ -13,4 +13,11 @@
     <string name="your_name">Full Name</string>
     <string name="forgot_password">Forgot Password?</string>
     <string name="swipe_icon">swipe icon</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="email">Email</string>
+    <string name="reset">Reset</string>
+    <string name="change_email">Change Email</string>
+    <string name="input_your_password">Input Your Password</string>
+    <string name="next">Next</string>
+    <string name="input_your_new_email">Input Your New Email</string>
 </resources>
